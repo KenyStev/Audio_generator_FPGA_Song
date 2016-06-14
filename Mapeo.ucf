@@ -1,0 +1,21 @@
+//clk
+Net "clk50Mghz" LOC="B8";
+
+//3
+//Net "data[3]" LOC ="M16" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+//2
+//Net "data[2]" LOC ="L14" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+//1
+//Net "data[1]" LOC ="P15" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+//0
+//Net "data[0]" LOC ="R15" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+Net "data[3]" LOC="A10" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+Net "data[2]" LOC="E11" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+Net "data[1]" LOC="E10" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+Net "data[0]" LOC="D10" | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 8;
+
+Net "c" LOC="C13" | IOSTANDARD = LVCMOS33;
+//Net "d" LOC="D12" | IOSTANDARD = LVCMOS33;
+//Net "e" LOC="C12" | IOSTANDARD = LVCMOS33;
+//Net "g" LOC="C10" | IOSTANDARD = LVCMOS33;
+

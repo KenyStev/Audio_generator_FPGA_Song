@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Raim/Documents/Laboratorio/SOUND/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Raim/Documents/Laboratorio/SOUND/xst"
+elaborate
+-ifn CLK_Divider.prj
+-ifmt mixed
